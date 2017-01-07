@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.13" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.sapient.PriceserviceApplication" project="priceservice" 
+    file="/priceservice/src/main/java/com/sapient/PriceserviceApplication.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="192" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.sapient.entity.Product" project="priceservice" 
+    file="/priceservice/src/main/java/com/sapient/entity/Product.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="340" width="219" x="623" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.sapient.product.client.ProductServiceClient" project="priceservice" 
+    file="/priceservice/src/main/java/com/sapient/product/client/ProductServiceClient.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="261" x="273" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.sapient.product.client.ProductServiceClientImpl" project="priceservice" 
+    file="/priceservice/src/main/java/com/sapient/product/client/ProductServiceClientImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="310" x="273" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.sapient.product.client.exception.ProductServiceClientException" 
+    project="priceservice" 
+    file="/priceservice/src/main/java/com/sapient/product/client/exception/ProductServiceClientException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="248" x="882" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
